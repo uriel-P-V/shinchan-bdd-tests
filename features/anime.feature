@@ -26,5 +26,3 @@ Feature: Shinchan Anime API
   Scenario: Validate that studios contain Shin-Ei Animation
     When I request the anime with ID 966
     Then the studios should contain "Shin-Ei Animation"
-
-
